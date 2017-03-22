@@ -1,3 +1,7 @@
+// The following example brings together some of the concepts of this section. 
+// SimpleThreads consists of two threads. The first is the main thread that every Java application has. 
+// The main thread creates a new thread from the Runnable object, MessageLoop, and waits for it to finish. 
+// If the MessageLoop thread takes too long to finish, the main thread interrupts it.
 public class SimpleThreads {
 
     // Display a message, preceded by
@@ -53,7 +57,6 @@ public class SimpleThreads {
                 System.exit(1);
             }
         }
-
         threadMessage("Starting MessageLoop thread");
         long startTime = System.currentTimeMillis();
         Thread t = new Thread(new MessageLoop());

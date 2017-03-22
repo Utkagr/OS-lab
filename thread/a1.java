@@ -1,4 +1,4 @@
-class xyz implements Runnable{
+class xyz implements rununnable{
 	public void run(){
 		int i;
 		for(i=0;i<4;i++){

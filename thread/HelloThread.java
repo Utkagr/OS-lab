@@ -5,7 +5,7 @@ public class HelloThread extends Thread {
     }
 
     public static void main(String args[]) {
-        (new HelloThread()).start();
+    	HelloThread k = new HelloThread();
+    	k.start();
     }
-
 }

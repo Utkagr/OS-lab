@@ -4,8 +4,8 @@
 int main(){
 	int p=fork();
 	int q=fork();
-	if(p==0) fork();
-	fork();
+	// if(p==0) fork();
+	// fork();
 	printf("X");
-	sleep(6);
+	// sleep(6);
 }
